@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url(./druma.jpg);
+  background-image: url(./war.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -35,28 +35,46 @@ header p {
 }
 
 .pads > div {
-  height: 100px;
+  height: 150px;
   width: 100px;
   flex: 1;
 }
 
 .pad1 {
   background: #60d394;
+  background-image: url(./smith.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pad2 {
   background: #d36060;
+  background-image: url(./bazooka.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pad3 {
   background: #c060d3;
+  background-image: url(./shotgun.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pad4 {
   background: #d3d160;
+  background-image: url(./pistol.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pad5 {
   background: #6860d3;
+  background-image: url(./machine\ gun.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .pad6 {
   background: #60b2d3;
+  background-image: url(./punching.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @keyframes jump{
