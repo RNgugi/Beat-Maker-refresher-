@@ -62,15 +62,15 @@ header p {
 @keyframes jump{
     0%{
         bottom: 0%;
-        left: 20%;
+        left: 50%;
     }
     50%{
-        bottom: 50%;
+        bottom: 65%;
         left: 50%;
     }
     100%{
         bottom: 0%;
-        left: 80%;
+        left: 50%;
     }
 }
 
@@ -81,5 +81,5 @@ header p {
     border-radius: 50px;
     bottom: 0%;
     left: 20%;
-    z-index: -1;
+    
 }
